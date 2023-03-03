@@ -247,31 +247,23 @@ img {
 
 .projects-container {
 	display: flex;
-	flex-direction: column;
-	margin: auto;
-	align-items: center;
+
 	justify-content: center;
-	width: 30.875rem;
-	text-align: center;
-	padding: 1rem;
 }
 
 /* project title */
-.project-link {
-	color: #a17a69;
-}
-
 .projects-title {
 	text-align: center;
 	margin-bottom: 1rem;
 }
 
-div.project-container .project-card {
-	box-sizing: border-box;
-	width: fit-content;
+.project-container {
+	text-align: center;
+	width: 21.875rem;
+	padding: 1rem;
 }
-
 /* adding box shadow to projects  */
+
 .project-container p {
 	padding: 0.4rem;
 }
@@ -293,6 +285,7 @@ div.project-container .project-card {
 }
 
 /* styling contact  */
+
 .contact {
 	margin-top: 2rem;
 }
